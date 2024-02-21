@@ -1,0 +1,3 @@
+.contact__inputs__btn:hover{
+    box-shadow: var(--primary-text) 5px 5px, var(--primary-text) 10px 10px;
+}

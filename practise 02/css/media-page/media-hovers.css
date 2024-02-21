@@ -1,0 +1,48 @@
+.media__hero__btn:hover{
+    box-shadow: var(--primary-text) 5px 5px, var(--primary-text) 10px 10px;
+}
+
+.media__hero__right__card:hover{
+    background: var(--primary-color);
+    box-shadow: 10px 10px 5px var(--color-white);
+    transition: 0.4s;
+}
+.media__hero__right__card:hover h3,.media__hero__right__card:hover p{
+    color: var(--color-white);
+    transition: 0.4s;
+}
+
+.media__hero__right:hover{
+    background: var(--h1Color);
+    box-shadow: 10px 10px 10px var(--primary-color);
+}
+
+.media__hero__right:hover .media__hero__right__card h3,
+.media__hero__right:hover .media__hero__right__card p{
+    color: var(--color-white);
+    transition: 0.4s;
+}
+
+.media__recent-news__cards__card:hover{
+    box-shadow: 5px 5px 10px var(--secondary-text);
+}
+
+.media__our-events__cards__card:hover{
+    background: var(--h3Color);
+    box-shadow: 10px 10px 10px var(--h3Color);
+}
+.media__our-events__cards__card:hover h1,.media__our-events__cards__card:hover h3,.media__our-events__cards__card:hover h2{
+    color: var(--heroBackground);
+}
+
+.subscribe__inputs:hover .subscribe__btn{
+    background: var(--primaryColor);
+    color: var(--color-white);
+}
+
+.subscribe__inputs:hover .subscribe__input{
+    border-color: var(--primaryColor);
+    
+}
+
+
