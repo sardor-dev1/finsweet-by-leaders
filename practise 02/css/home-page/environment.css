@@ -28,14 +28,17 @@
     padding: 16px 32px;
     font-weight: 500;
     background-color: var(--primary-color);
-    
+    border: 0 2px 2px 0 solid transparent;
 }
 
 .about__environment__btns__btn:hover {
-    box-shadow: var(--primary-color) 5px 5px, var(--primary-text) 10px 10px;
+    box-shadow: var(--primary-color) 5px 5px, var(--primary-color) 10px 10px;
 }
 
 .about__environment__btns__btn2 {
     padding: 16px 32px;
     background-color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
 }
