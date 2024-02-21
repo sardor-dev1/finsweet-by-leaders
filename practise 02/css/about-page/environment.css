@@ -1,0 +1,30 @@
+.about__environment__container  {
+    padding: 92px 0;
+    background: url(../../images/about-page/environment/environment-bg.png), url(../../images/about-page/environment/environment-bg-shadow.png);
+    background-size: auto;
+}
+
+.about__environment__heading {
+    max-width: 631px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #fff;
+}
+
+.about__environment__btns {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.about__environment__btns__btn {
+    padding: 16px 32px;
+    font-weight: 500;
+    background-color: var(--primary-color);
+}
+
+.about__environment__btns__btn2 {
+    padding: 16px 32px;
+    background-color: #fff;
+}

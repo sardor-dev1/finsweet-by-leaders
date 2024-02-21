@@ -1,0 +1,57 @@
+#about__awards {
+    padding: 96px 0;
+}
+
+.about__awards__heading {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.about__awards__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about__awards__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.about__awards__card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}   
+
+.about__awards__card__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.about__awards__card__subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary-text);
+}   
+
+.about__awards__card__text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 160%;
+    text-transform: uppercase;
+    opacity: 60%;
+    color: var(--primary-text)
+}
+
+@media (max-width: 680px) {
+    .about__awards__heading {
+        font-size: 32px;
+        line-height: normal;
+    }
+}
