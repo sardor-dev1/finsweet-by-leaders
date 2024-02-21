@@ -1,0 +1,41 @@
+.about__environment__container  {
+    margin: 90px 0;
+    
+}
+
+.about__environment__container {
+    padding: 92px 0;
+    background: url(../../images/home/environment/BG\ \(1\).png);
+    background-size: auto;
+    background-position-x: center;
+}
+
+.about__environment__heading {
+    max-width: 631px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #fff;
+}
+
+.about__environment__btns {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.about__environment__btns__btn {
+    padding: 16px 32px;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    
+}
+
+.about__environment__btns__btn:hover {
+    box-shadow: var(--primary-color) 5px 5px, var(--primary-text) 10px 10px;
+}
+
+.about__environment__btns__btn2 {
+    padding: 16px 32px;
+    background-color: #fff;
+}
