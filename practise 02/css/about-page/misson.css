@@ -1,0 +1,43 @@
+#about__misson {
+    padding-top: 324px;
+    padding-bottom: 96px;
+    background-color: #EFF7F2;
+}
+
+.about__mission__container {
+    display: flex;
+    gap: 96px;
+}
+
+.about__misson__left__start {
+    margin-bottom: 16px;    
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--primary-text);
+}
+
+.about__misson__left__title {
+    margin-bottom: 8px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.about__mission__left__desc {
+    opacity: 70%;
+}
+
+@media (max-width: 600px) {
+  .about__mission__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+    #about__misson {
+        padding-top: 100px;
+    }
+}

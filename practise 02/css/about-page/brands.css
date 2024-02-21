@@ -1,0 +1,33 @@
+#about__brands {
+    padding-bottom: 96px;
+    background-color: #EFF7F2;
+}
+
+.about__brands__headings {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.about__brands__headings__text {
+    text-transform: uppercase;
+    color: var(--primary-text);
+    font-weight: 500;
+    opacity: 70%;
+}
+
+.about__brands__headings__line {
+    display: inline-block;
+    height: 1px;
+    max-width: 1094px;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.about__brands__brands {
+    display: flex;
+    gap: 90px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
