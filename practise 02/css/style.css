@@ -5,3 +5,9 @@
 @import url(./home-page/hero.css);
 @import url(./home-page/about.css);
 @import url(./footer.css);
+@import url(media-page/media-hero.css);
+@import url(media-page/media-variables.css);
+@import url(media-page/media-news.css);
+@import url(media-page/media-our-events.css);
+@import url(media-page/media-hovers.css);
+@import url(media-page/media-footer.css);
