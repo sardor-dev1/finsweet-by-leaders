@@ -11,3 +11,7 @@
 @import url(media-page/media-our-events.css);
 @import url(media-page/media-hovers.css);
 @import url(media-page/media-footer.css);
+@import url(contact-us-page/contact-variables.css);
+@import url(contact-us-page/contact-hero.css);
+@import url(contact-us-page/contact-input.css);
+@import url(contact-us-page/contact-hovers.css);

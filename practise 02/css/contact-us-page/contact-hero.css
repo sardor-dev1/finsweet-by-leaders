@@ -1,0 +1,101 @@
+#contact__hero{
+    background: var(--contactHero);
+    padding: 50px 0px;
+}
+
+.contact__hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contact__hero__left{
+    width: 10%;
+}
+.contact__hero__left img{
+    width: 100%;
+}
+
+.contact__hero__middle{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 30px;
+}
+
+.contact__hero__right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact__hero__right--talk{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact__hero__right--talk__middle{
+    gap: 10px;
+}
+
+.contact__hero__right--headoffice,.contact__hero__right--branchoffice{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact__hero__right--facebook{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media(max-width:970px){
+    .contact__hero{
+        flex-wrap: wrap;
+        gap: 40px;
+        align-items: center;
+    }
+    .contact__hero__left{
+        display: none;
+    }
+
+    .contact__hero__right{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact__hero__middle{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:970px){
+    .contact__hero__right{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact__hero__middle{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:380px){
+    .contact__hero__right{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact__hero__middle{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

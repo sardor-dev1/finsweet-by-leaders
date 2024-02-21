@@ -1,0 +1,95 @@
+input{
+    outline: none;
+    border: 0px solid var( --secondaryColor);
+    border-bottom: 1px solid var(--h3Color);
+}
+
+label{
+    color: var(--textColor);
+}
+
+#contact__inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin: 0px auto; 
+}
+
+.contact__inputs{
+    padding: 50px 0px;
+}
+
+.contact__name__inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact__name__inputs__lastname__input,.contact__name__inputs__firstname__input{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 45%;
+}
+
+.contact__email__inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact__email__inputs__email__input,.contact__email__inputs__subject__input{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 45%;
+}
+
+#subject,#email,#lastName,#firstName{
+    width: 100%;
+}
+
+.contact__messege__input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+#messege{
+    border: 1px solid var(--h3Color);
+    border-radius: 8px;
+    width: 100%;
+    height: 40%px;
+    padding: 10px;
+}
+
+.contact__inputs__btn{
+    width: 150px;
+    height: 50px;
+    background: var(--primaryColor);
+    color: var(--color-white);
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+@media(max-width:650px){
+    .contact__name__inputs,.contact__email__inputs{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .contact__name__inputs__firstname__input,.contact__name__inputs__lastname__input{
+        width: 100%;
+    }
+    .contact__email__inputs__email__input,.contact__email__inputs__subject__input{
+        width: 100%;
+    }
+}
+
+.contact__map img{
+    width: 100%;
+}
